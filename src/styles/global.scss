@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+$black : #0a0a0a;
+$orange: #f08829;
+$orange-shade: #a76f3bf5;
+$grey : #534c4c;
+$white: #fffefe;
+
+
+
+.main{
+  min-height: 90vh;
+
+}
+
+
+
+button{
+   text-decoration: none;
+    background-color: orange;
+    color: white;
+    padding: 10px 30px;
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+@mixin important-text {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid blue;
+}
+
+
+@mixin div-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+

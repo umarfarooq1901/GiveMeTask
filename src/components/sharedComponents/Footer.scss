@@ -1,0 +1,131 @@
+.footer {
+  background-color: black;
+  min-height: 20vh;
+  color: aliceblue;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+
+  > .quick-links {
+    width: 300px;
+    margin-bottom: 50px;
+    
+    > h3 {
+      color: orange;
+    }
+
+    > ul {
+      padding-left: 20px;
+      > li {
+        margin-bottom: 10px;
+        > a {
+          color: aliceblue;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  > .social-media {
+    width: 300px;
+    margin-bottom: 50px;
+    > h3 {
+      color: orange;
+    }
+
+    > ul {
+      padding-left: 0;
+      > li {
+        margin-bottom: 10px;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        
+
+        > img {
+         width: 24px;
+         height: 24px;
+         margin-right: 10px;
+         padding-bottom: 5px;
+        }
+
+        >a {
+          color: aliceblue;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  >.legal{
+    width: 300px;
+    margin-bottom: 50px;
+    
+    >h3{
+        color: orange;
+    }
+    > ul {
+        padding-left: 20px;
+        > li {
+          margin-bottom: 10px;
+          > a {
+            color: aliceblue;
+            text-decoration: none;
+          }
+        }
+      }
+  }
+
+  > .subscription {
+    // width: 300px;
+
+    
+    > h3 {
+      color: orange;
+    }
+
+    >form{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        align-items: right;
+
+
+        >input{
+            padding: 5px 10px;
+            margin-right: 5px;
+            border: none;
+        }
+        >button{
+            width: 100px;
+            padding: 5px 15px;
+            margin-top: 20px;
+            margin-left: 195px;
+        }
+    }
+
+   
+  }
+  
+}
+
+.footer-2 {
+  display: flex;
+  background-color: black;
+  height: 10vh;
+  color: aliceblue;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  > p {
+    margin: 5px 10px;
+  }
+}
+
+
+
+@media screen and (max-width : 600px) {
+
+  
+}

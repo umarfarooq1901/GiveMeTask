@@ -1,0 +1,46 @@
+@import url("../../styles/global.scss");
+
+.create-blog {
+  width: 70%;
+  margin: auto;
+
+  > form {
+    > input { 
+      margin-bottom: 20px;
+      padding: 5px 20px;
+      font-size: 22px;
+      width: 300px;
+    }
+  }
+
+  > button {
+    background-color: orange;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px; 
+    margin-top: 20px;
+    color: rgb(253, 253, 253);
+    font-size: 20px;
+  }
+}
+
+
+
+@media only screen and (max-width : 600px) {
+    
+
+    .create-blog {
+        width: 90%;
+    
+        padding: 2%;
+      
+        // > form { 
+        
+        // }
+      
+        // > button {
+          
+        // }
+      }
+      
+}
